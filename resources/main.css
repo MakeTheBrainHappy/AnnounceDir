@@ -1,0 +1,17 @@
+body {
+    background-color: #ccc;
+    text-align: center;
+}
+
+img {
+    border: none;
+}
+
+h2 {
+    color: indigo;
+    font-weight: bold;
+}
+
+li {
+    list-style-type: disc;
+}
