@@ -15,3 +15,30 @@ h2 {
 li {
     list-style-type: disc;
 }
+
+.btn {
+    max-height:60px;
+    position: fixed;
+    background-color: #333;
+    color: #ccc !important;
+    padding: 15px;
+    bottom: 0;
+    text-align:center;
+}
+
+
+.btn a:link {
+    color: #ccc !important;
+    text-decoration: none;
+}
+
+.btn a:visited {
+    color: #ccc !important;
+    text-decoration: none;
+}
+
+#gotoscratch {
+    clear: right;
+    float: left;
+    max-width: 350px;
+}
