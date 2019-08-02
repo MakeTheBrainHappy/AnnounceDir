@@ -1,6 +1,7 @@
 body {
-    background-color: #ccc;
+    background-color: #e0ffea;
     text-align: center;
+    font-family: arial, sans-serif;
 }
 
 img {
@@ -28,14 +29,18 @@ li {
 }
 
 
-.btn a:link {
+.btn a:link, .btn a:visited {
     color: #ccc !important;
     text-decoration: none;
 }
 
-.btn a:visited {
-    color: #ccc !important;
+a:link, a:visited {
+    color: rgb(50, 50, 255);
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 175);
 }
 
 #gotoscratch {
